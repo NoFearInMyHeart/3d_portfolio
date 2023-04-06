@@ -48,19 +48,17 @@ const About = () => {
     return (
         <>
             <motion.div variants={textVariant()}>
-                <p className={styles.sectionSubText}>Introduction</p>
-                <h2 className={styles.sectionHeadText}>Overview.</h2>
+                <p className={styles.sectionSubText}>引言</p>
+                <h2 className={styles.sectionHeadText}>概述.</h2>
             </motion.div>
 
             <motion.p
                 variants={fadeIn("", "", 0.1, 1)}
                 className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
             >
-                I‘m a skilled software developer with experience in TypeScript and
-                JavaScript, and expertise in frameworks like React, Node.js, and
-                Three.js. I’m a quick learner and collaborate closely with clients to
-                create efficient, scalable, and user-friendly solutions that solve
-                real-world problems. Let‘s work together to bring your ideas to life!
+                简单介绍一下，生于95年光棍节，天蝎座♏️，目前是一名前端工程师，年近30，蹉跎中练就了一捏捏的生存吃饭的技能，但是目前还是菜鸡儿🐔一个，努力升级打怪中💪。<br />
+                平常主要用 React, Vue 来搞一些SPA和后台，写 App 的话用 Flutter, 小程序是用 uni-app, 如果涉及到 SSR 服务端渲染的话用过 Nuxt 和 Next, 可以快速学习上手一些框架和类库。
+                近期对后端技术有点感兴趣并实践中...
             </motion.p>
 
             <div className='mt-20 flex flex-wrap gap-10'>

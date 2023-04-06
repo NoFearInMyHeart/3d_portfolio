@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { styles } from "@/styles";
 import {navLinkItl, navLinks} from "@/constants";
-import { logo, menu, close } from "@/assets";
+import {logo, menu, close, avatar} from "@/assets";
 import {useEffect, useState} from "react";
 
 const Navbar = () => {
@@ -33,10 +33,10 @@ const Navbar = () => {
                     setActive('')
                     window.scrollTo(0, 0)
                 }}>
-                    <Image src={logo} alt="logo" className='w-9 h-9 object-contain' />
+                    <img src={avatar.src} alt="logo" className='w-9 h-9 object-contain' />
                     <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-                        Adrian &nbsp;
-                        <span className='sm:block hidden'> | JavaScript Mastery</span>
+                        {/*yzZ &nbsp;*/}
+                        <span className='sm:block hidden'> 🚀</span>
                     </p>
                 </Link>
                 <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -51,6 +51,9 @@ const Navbar = () => {
                             <Link href={`#${nav.id}`}>{nav.title}</Link>
                         </li>
                     ))}
+                    <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
+                        <Link href="/resume.jpeg">简历</Link>
+                    </li>
                 </ul>
 
                 <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -77,6 +80,9 @@ const Navbar = () => {
                                     <Link href={`#${nav.id}`}>{nav.title}</Link>
                                 </li>
                             ))}
+                            <li className="font-poppins font-medium cursor-pointer text-[16px] text-secondary">
+                                <Link href="/resume.jpeg">简历</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>

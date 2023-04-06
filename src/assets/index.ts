@@ -1,4 +1,5 @@
 import logo from "./logo.svg";
+import avatar from "./avatar.jpeg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -16,6 +17,9 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
+import vuejs from './tech/vuejs.svg';
+import Flutter from './tech/flutter.svg';
+import uniapp from './tech/uni-app.svg';
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -26,12 +30,22 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import zhibai from './company/zhibai.png';
+import shangrui from './company/shangrui.png';
+import shanqu from './company/shanqu.png';
+
+import kkjp from './kkjp.png';
+import niuniu from './niuniu.png';
+import modesens from './modesens.png';
+import shanmeng from './shanmeng.png';
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
     logo,
+    avatar,
     backend,
     creator,
     mobile,
@@ -48,6 +62,9 @@ export {
     mongodb,
     nodejs,
     reactjs,
+    vuejs,
+    Flutter,
+    uniapp,
     redux,
     tailwind,
     typescript,
@@ -56,6 +73,13 @@ export {
     shopify,
     starbucks,
     tesla,
+    zhibai,
+    shangrui,
+    shanqu,
+    kkjp,
+    niuniu,
+    modesens,
+    shanmeng,
     carrent,
     jobit,
     tripguide,
