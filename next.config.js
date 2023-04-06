@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   transpilePackages: ['react-tilt'],
-  ignoreDuringBuilds: true
 }
 
 module.exports = nextConfig
