@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { styles } from "@/styles";
 import {navLinkItl, navLinks} from "@/constants";
 import {logo, menu, close, avatar} from "@/assets";
@@ -48,11 +47,11 @@ const Navbar = () => {
                             } hover:text-white text-[18px] font-medium cursor-pointer`}
                             onClick={() => setActive(nav.title)}
                         >
-                            <Link href={`#${nav.id}`}>{nav.title}</Link>
+                            <a href={`#${nav.id}`}>{nav.title}</a>
                         </li>
                     ))}
                     <li className="text-secondary hover:text-white text-[18px] font-medium cursor-pointer">
-                        <Link href="/resume.jpeg">简历</Link>
+                        <a href="/resume.jpeg">简历</a>
                     </li>
                 </ul>
 
@@ -77,11 +76,11 @@ const Navbar = () => {
                                         setActive(nav.title)
                                     }}
                                 >
-                                    <Link href={`#${nav.id}`}>{nav.title}</Link>
+                                    <a href={`#${nav.id}`}>{nav.title}</a>
                                 </li>
                             ))}
                             <li className="font-poppins font-medium cursor-pointer text-[16px] text-secondary">
-                                <Link href="/resume.jpeg">简历</Link>
+                                <a href="/resume.jpeg">简历</a>
                             </li>
                         </ul>
                     </div>
