@@ -32,7 +32,7 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    threejs, nextjs, nuxtjs,
 } from "../assets";
 import {StaticImageData} from "next/image";
 
@@ -134,6 +134,14 @@ const technologies: technologyItl[] = [
     {
         name: "uni-app",
         icon: uniapp,
+    },
+    {
+        name: "Next.js",
+        icon: nextjs,
+    },
+    {
+        name: "Nuxt.js",
+        icon: nuxtjs,
     },
     // {
     //     name: "MongoDB",

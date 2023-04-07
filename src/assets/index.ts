@@ -20,6 +20,8 @@ import reactjs from "./tech/reactjs.png";
 import vuejs from './tech/vuejs.svg';
 import Flutter from './tech/flutter.svg';
 import uniapp from './tech/uni-app.svg';
+import nextjs from './tech/nextjs.svg';
+import nuxtjs from './tech/nuxtjs.svg';
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
@@ -65,6 +67,8 @@ export {
     vuejs,
     Flutter,
     uniapp,
+    nextjs,
+    nuxtjs,
     redux,
     tailwind,
     typescript,
