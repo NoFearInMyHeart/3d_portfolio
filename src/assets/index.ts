@@ -39,7 +39,7 @@ import shanqu from './company/shanqu.png';
 import kkjp from './kkjp.png';
 import niuniu from './niuniu.png';
 import modesens from './modesens.png';
-import shanmeng from './shanmeng.png';
+import shanmeng from './shanmengemoji.png';
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
