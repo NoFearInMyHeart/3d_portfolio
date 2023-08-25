@@ -205,7 +205,7 @@ const experiences: experienceItl[] = [
         company_name: "北京闪趣信息技术",
         icon: shanqu,
         iconBg: "#383E56",
-        date: "2019.10 - 2020.09",
+        date: "2020.11 - 2022.09",
         points: [
             "使用 Nuxt.js 技术开发和维护公司 KK 键盘输入法 Hybrid App.",
             "使用 Flutter 技术开发和维护公司 闪萌表情，闪萌牛牛 App 相关功能模块.",
