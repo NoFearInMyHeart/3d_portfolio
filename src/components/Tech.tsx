@@ -1,6 +1,6 @@
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "@/hoc";
 import {technologies, technologyItl} from "@/constants";
+import {StaticImageData} from "next/image";
 
 const Tech = () => {
     return (
@@ -13,5 +13,30 @@ const Tech = () => {
         </div>
     );
 };
+
+interface BallCanvasProps {
+    icon: StaticImageData
+}
+
+
+const BallCanvas = ({icon}: BallCanvasProps ) => {
+    return (
+        <div className="bg-white rounded-full flex items-center justify-center overflow-hidden">
+            <img src={icon.src} alt="" className="object-cover"/>
+        </div>
+        // <Canvas
+        //     frameloop='demand'
+        //     dpr={[1, 2]}
+        //     gl={{ preserveDrawingBuffer: true }}
+        // >
+        //     <Suspense fallback={<CanvasLoader />}>
+        //         <OrbitControls enableZoom={false} />
+        //         <Ball icon={icon} />
+        //     </Suspense>
+        //
+        //     <Preload all />
+        // </Canvas>
+    )
+}
 
 export default SectionWrapper(Tech, 'tech');
